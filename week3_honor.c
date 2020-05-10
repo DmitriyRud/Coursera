@@ -18,7 +18,7 @@
 typedef struct	list {
 	int			data;
 	struct list	*next;
-	struct list *prev;
+	struct list	*prev;
 }				list;
 
 list* create_list(int d)
